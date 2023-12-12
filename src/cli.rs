@@ -17,7 +17,7 @@ impl Cli {
     pub fn run(&mut self) -> Result<()> {
         let matches = Command::new("blockchain-rust-demo")
             .version("0.1")
-            .author("behrouz.r.fa@gmail.com")
+            .author("quyenng2k@gmail.com")
             .about("blockchain in rust: a simple blockchain for learning")
             .subcommand(Command::new("printchain").about("print all the chain blocks"))
             .subcommand(Command::new("createwallet").about("create a wallet"))
